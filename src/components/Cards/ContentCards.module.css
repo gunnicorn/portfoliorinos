@@ -1,21 +1,40 @@
 /* ContentCards.module.css */
 
 .container {
-  width: 600px;
+  width: 750px;
 }
 
 .anchorPadding {
-  padding: 20px;
+  margin: 20px 0px;
+}
+
+.anchorStyle {
+  background-color: rgb(86, 60, 255);
+}
+.part1contentSection {
+  /* border-width: 2px;
+  border-color: rgb(34, 250, 124);
+  border-style: dashed; */
+  width: 80%;
+  height: 50vh;
+  text-align: left;
+  font-family:'Segoe UI';
+  font-size: 100;
 }
 
 .contentSection {
-  width: 100%;
+  /* border-width: 2px;
+  border-color: rgb(37, 74, 194);
+  border-style: dashed; */
+  width: 80%;
   height: 100vh;
-  text-align: center;
+  text-align: left;
+  font-family:'Segoe UI';
+  font-size: 100;
 }
 
 .part1Background {
-  background: rgba(0, 255, 0, 0.02);
+  background: rgb(219, 217, 217);
 }
 
 .part2Background {
@@ -24,4 +43,15 @@
 
 .part3Background {
   background: #fffbe9;
+}
+
+.contentContainer {
+  width: 750px;
+  /* border-width: 2px;
+  border-color: black;
+  border-style: dashed; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }

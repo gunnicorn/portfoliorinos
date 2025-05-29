@@ -1,12 +1,13 @@
 .mainContainer {
   margin: 0;
   font-family: "Inter, sans-serif";
-  background-color: #00f0f0;
+  background-color: #E3E3E1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; /*align in x-axis (start, end)*/
   min-height: 100vh;
   padding: 20px;
   box-sizing: border-box;
+  width: 100vw;
 }
