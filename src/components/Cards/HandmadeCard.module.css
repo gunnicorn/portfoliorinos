@@ -1,7 +1,7 @@
 .handmadeMain {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: black;
-    border-style: dashed; */
+    border-style: dashed;
     width: 750px;
     height: 150px;
     border-radius: 5px;
@@ -10,21 +10,21 @@
   }
 
 .handmadeMain1 {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rgb(234, 67, 209);
-    border-style: dashed; */
+    border-style: dashed;
 }
 
 .handmadeMain2 {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rgb(0, 26, 255);
-    border-style: dashed; */
+    border-style: dashed;
 }
 
 .handmadeTitle {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rgb(231, 53, 53);
-    border-style: dashed; */
+    border-style: dashed;
     text-align: left;
     margin: 0px 10px;
     margin-top: 10px;
@@ -34,9 +34,9 @@
 }
 
 .handmadeDesc {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rgb(107, 99, 224);
-    border-style: dashed; */
+    border-style: dashed;
     text-align: left;
     margin: 0px 10px;
     padding: 10px;
@@ -45,9 +45,9 @@
 }
 
 .handmadeContact {
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rgb(105, 237, 53);
-    border-style: dashed; */
+    border-style: dashed;
     text-align: right;
     display: flex;
     flex-direction: column;

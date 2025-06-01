@@ -1,0 +1,69 @@
+.leftAlignedCardMain {
+/* border-width: 2px;
+  border-color: rgb(107, 15, 119);
+  border-style: solid; */
+  display: flex;
+  align-items: left;
+}
+
+.leftAlignedCardPhoto {
+/* border-width: 2px;
+  border-color: rgb(15, 119, 88);
+  border-style: solid; */
+  width:400px;
+  margin: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.leftAlignedCardText {
+/* border-width: 2px;
+  border-color: rgb(148, 87, 63);
+  border-style: solid; */
+  margin-top: 30px;
+  width: 400px;
+  margin-right: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titleText {
+    font-size: 30px;
+    margin-bottom:20px;
+}
+
+.textCardMain {
+  /* border-width: 2px;
+  border-color: rgb(109, 245, 255);
+  border-style: solid; */
+  margin: 10px 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rightAlignedCardMain {
+/* border-width: 2px;
+  border-color: rgb(107, 15, 119);
+  border-style: solid; */
+  display: flex;
+}
+
+.rightAlignedCardPhoto {
+/* border-width: 2px;
+  border-color: rgb(15, 119, 88);
+  border-style: solid; */
+  width:400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.rightAlignedCardText {
+/* border-width: 2px;
+  border-color: rgb(148, 87, 63);
+  border-style: solid; */
+  margin-top: 30px;
+  width: 400px;
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

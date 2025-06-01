@@ -1,0 +1,61 @@
+.experienceMain {
+  /* border-width: 2px;
+  border-color: rgb(34, 250, 124);
+  border-style: dashed; */
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceTags{
+  /* border-width: 2px;
+  border-color: rgb(255, 42, 42);
+  border-style: dashed; */
+}
+
+.experienceDescription{
+  /* border-width: 2px;
+  border-color: rgb(0, 162, 255);
+  border-style: dashed; */
+}
+
+.experienceTitle{
+    /* border-width: 2px;
+    border-color: rgb(219, 255, 14);
+    border-style: dashed; */
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.experiencePhoto{
+    /* border-width: 2px;
+    border-color: rgb(24, 51, 255);
+    border-style: dashed; */
+    width: 200px;
+    align-items: center; 
+}
+
+.experienceProjDesc {
+    /* border-width: 2px;
+    border-color: rgb(220, 24, 255);
+    border-style: dashed;  */
+    margin-top: 10px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.experienceContriCard {
+    /* border-width: 2px;
+    border-color: rgb(255, 24, 105);
+    border-style: dashed; */
+    width: 80%;
+    margin: 20px 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.highlight{
+    /* color: #96c4f1; */
+    color: #268bf0;
+}

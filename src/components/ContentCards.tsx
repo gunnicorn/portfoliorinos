@@ -2,7 +2,8 @@ import React from "react";
 import { Anchor, Button } from "antd";
 import styles from "./Cards/ContentCards.module.css";
 import ExperienceCard from "./Cards/ExperienceCard";
-
+import LeftArticleCard from "./Cards/LeftArticleCard";
+import RightArticleCard from "./Cards/RightArticleCard";
 const Anchoring: React.FC = () => (
   <div className={styles.container}>
     {
@@ -62,7 +63,10 @@ const Anchoring: React.FC = () => (
       <div
         id="part-3"
         className={`${styles.contentSection} ${styles.part3Background}`}
-      />
+      >
+        <LeftArticleCard />
+        <RightArticleCard />
+      </div>
       <Button id="part-4" type="primary">
         Primary Button Here
       </Button>
