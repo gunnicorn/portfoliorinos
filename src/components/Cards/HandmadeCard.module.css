@@ -1,57 +1,74 @@
 .handmadeMain {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: black;
-    border-style: dashed;
-    width: 750px;
-    height: 150px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-  }
+    border-style: dashed; */
+  width: 750px;
+  height: 200px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .handmadeMain1 {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: rgb(234, 67, 209);
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .handmadeMain2 {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: rgb(0, 26, 255);
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .handmadeTitle {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: rgb(231, 53, 53);
-    border-style: dashed;
-    text-align: left;
-    margin: 0px 10px;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed; */
+  text-align: left;
+  margin: 0px 0px;
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 72px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .handmadeDesc {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: rgb(107, 99, 224);
-    border-style: dashed;
-    text-align: left;
-    margin: 0px 10px;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    border-style: dashed; */
+  text-align: left;
+  margin: 0px 0px;
+  padding-top: 8px;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.handmadeDesc2 {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .handmadeContact {
-    border-width: 2px;
+  /* border-width: 2px;
     border-color: rgb(105, 237, 53);
-    border-style: dashed;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-    margin-top: 20px;
-    gap: 8px;
+    border-style: dashed; */
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+  padding-top: 36px;
+  gap: 8px;
+}
+
+.handmadePin {
+  color: "black";
+  font-size: 24px;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+.handmadeLokasi {
+  display: flex;
+  padding-top: 8px;
 }

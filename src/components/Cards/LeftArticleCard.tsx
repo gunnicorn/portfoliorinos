@@ -3,13 +3,14 @@
 import React from "react";
 import { Image } from "antd";
 import styles from "./ArticleCard.module.css";
-import Tags from "./Tags";
-import Divider from "./Divider";
+import VideoPlayer from "./VideoCard";
+
 const LeftArticleCard: React.FC = () => (
   <div>
     <div className={styles.leftAlignedCardMain}>
       <div className={styles.leftAlignedCardPhoto}>
         <div className={styles.titleText}>Let's Build a Dungeon</div>
+        <VideoPlayer videoId="PWZ-k6S4FkU" autoplay={false} />
         <Image src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2365790/capsule_616x353.jpg?t=1740116300" />
       </div>
       <div className={styles.leftAlignedCardText}>
@@ -20,11 +21,9 @@ const LeftArticleCard: React.FC = () => (
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam
         <p></p>
-        <Tags />
       </div>
     </div>
     <div className={styles.textCardMain}></div>
-    <Divider />
   </div>
 );
 

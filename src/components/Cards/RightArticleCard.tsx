@@ -3,7 +3,6 @@
 import React from "react";
 import { Image } from "antd";
 import styles from "./ArticleCard.module.css";
-import Tags from "./Tags";
 
 const RightArticleCard: React.FC = () => (
   <div>
@@ -15,7 +14,6 @@ const RightArticleCard: React.FC = () => (
         <p></p>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam <p></p>
-        <Tags />
       </div>
       <div className={styles.rightAlignedCardPhoto}>
         <div className={styles.titleText}>Let's Build a Dungeon</div>

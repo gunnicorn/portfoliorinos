@@ -1,26 +1,26 @@
-import React from 'react';
-import { Anchor } from 'antd';
+import React from "react";
+import { Anchor } from "antd";
 
 const PageAnchor: React.FC = () => (
   <>
-    <div style={{ padding: '1px' }}>
+    <div style={{ padding: "1px" }}>
       <Anchor
         direction="horizontal"
         items={[
           {
-            key: 'part-1',
-            href: '#part-1',
-            title: 'Part 1',
+            key: "part-1",
+            href: "#part-1",
+            title: "Part 1",
           },
           {
-            key: 'part-2',
-            href: '#part-2',
-            title: 'Part 2',
+            key: "part-2",
+            href: "#part-2",
+            title: "Part 2",
           },
           {
-            key: 'part-3',
-            href: '#part-3',
-            title: 'Part 3',
+            key: "part-3",
+            href: "#part-3",
+            title: "Part 3",
           },
         ]}
       />
@@ -29,24 +29,26 @@ const PageAnchor: React.FC = () => (
       <div
         id="part-1"
         style={{
-          width: '100vw',
-          height: '100vh',
-          textAlign: 'left',
-          background: 'rgba(0,255,0,0.02)',
+          width: "100vw",
+          textAlign: "left",
+          background: "rgba(0,255,0,0.02)",
         }}
       />
       <div
         id="part-2"
         style={{
-          width: '100vw',
-          height: '100vh',
-          textAlign: 'left',
-          background: 'rgba(0,0,255,0.02)',
+          width: "100vw",
+          textAlign: "left",
+          background: "rgba(0,0,255,0.02)",
         }}
       />
       <div
         id="part-3"
-        style={{ width: '100vw', height: '100vh', textAlign: 'left', background: '#FFFBE9' }}
+        style={{
+          width: "100vw",
+          textAlign: "left",
+          background: "#FFFBE9",
+        }}
       />
     </div>
   </>

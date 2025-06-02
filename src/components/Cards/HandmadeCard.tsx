@@ -14,9 +14,9 @@ const HandmadeCard: React.FC = () => (
       <div className={styles.handmadeDesc}>
         GAME DEVELOPER | SOFTWARE ENGINEER
       </div>
-      <div>
-        <FaMapMarkerAlt style={{ color: "black", fontSize: "30px" }} />
-        Singapore
+      <div className={styles.handmadeLokasi}>
+        <FaMapMarkerAlt className={styles.handmadePin} />
+        <div className={styles.handmadeDesc2}>Singapore</div>
       </div>
     </div>
     <div className={styles.handmadeMain2}>

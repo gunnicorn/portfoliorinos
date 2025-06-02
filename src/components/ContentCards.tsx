@@ -1,9 +1,10 @@
 import React from "react";
 import { Anchor, Button } from "antd";
 import styles from "./Cards/ContentCards.module.css";
-import ExperienceCard from "./Cards/ExperienceCard";
-import LeftArticleCard from "./Cards/LeftArticleCard";
-import RightArticleCard from "./Cards/RightArticleCard";
+import DungeonExperience from "./Cards/DungeonExperience";
+import ArticleCard from "./Cards/ArticleCard";
+import ZooExperience from "./Cards/ZooExperience";
+
 const Anchoring: React.FC = () => (
   <div className={styles.container}>
     {
@@ -37,35 +38,24 @@ const Anchoring: React.FC = () => (
       </div>
     }
     <div className={styles.contentContainer}>
-      <div
-        id="part-1"
-        className={`${styles.part1contentSection} ${styles.part1Background}`}
-      >
-        Hello! I'm a software engineer specializing in game development with 3
-        years of professional experience, proficient in C++ and C#. I've worked
-        on live games and have a plethora of projects from my school days. I
-        love exploring the different facets of game development, especially
-        programming.
-        <p></p>My background includes serving as a lead network programmer, with
-        expertise in server development, online multiplayer, and RESTful APIs.
-        Additionally, as one of the core engineers in my previous company, I was
-        responsible for architectural design, tool development, upholding modern
-        code practices and effective communication across teams.
-        <p></p>When i'm not programming, I can be found playing games or
+      <div id="part-1" className={`${styles.part1contentSection} `}>
+        Hello! I'm a software engineer and game developer with 3 years of
+        professional experience, proficient in C++ and C#. I specialize in
+        networking through leveraging Azure services like PlayFab, Cosmos DB and
+        RESTful APIs. <p></p>In my previous company, I contributed to the
+        architectural design of our custom game engine, developing engine tools,
+        and integrating external SDKs.
+        <p></p> When I'm not programming, I can be found playing games or
         streaming on Twitch!
       </div>
-      <div
-        id="part-2"
-        className={`${styles.contentSection} ${styles.part2Background}`}
-      >
-        <ExperienceCard />
+      {/* <MyTimeline /> */}
+      <div id="part-2" className={`${styles.contentSection} `}>
+        <DungeonExperience />
+        <ZooExperience />
+        {/* <ExperienceCard /> */}
       </div>
-      <div
-        id="part-3"
-        className={`${styles.contentSection} ${styles.part3Background}`}
-      >
-        <LeftArticleCard />
-        <RightArticleCard />
+      <div id="part-3" className={`${styles.contentSection} `}>
+        <ArticleCard />
       </div>
       <Button id="part-4" type="primary">
         Primary Button Here
