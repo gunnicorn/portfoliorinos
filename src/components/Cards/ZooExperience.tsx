@@ -15,14 +15,13 @@ const ZooExperience: React.FC = () => (
     />
     {/* <div className={styles.experienceProjDesc}>Game Developer Simulator</div> */}
     <div className={styles.experienceContriCard}>
-      My work consists of architecting and developing the online multiplayer
-      system, integrating external SDKs, implementing gameplay features and
-      improving company workflow.
-      <p></p>As a core engineer for our custom game engine, I was also in charge
-      of deploying builds, setting up a CI/CD pipeline, integrating Twitch APIs,
-      implementing real-time online multiplayer system and onboarding new hires.
-      <p></p>
-      The game is unreleased but you can play the live demo{" "}
+      Ported the Steam version of the game to Playstation 4/5, Xbox
+      Scarlett/Series X|S and Xbox Gamepass PC using Unity and the relevant
+      GDKs. I implemented the Save/Load feature and the Downloadable Content
+      pipeline for the consoles as well.
+      <p></p>I was also active in engaging with the community through Steam
+      forums, helping players with technical issues and questions. You can find
+      the game{" "}
       <a href="https://store.steampowered.com/app/1547890/Lets_Build_a_Zoo/">
         here
       </a>
@@ -33,12 +32,12 @@ const ZooExperience: React.FC = () => (
         <Flex gap="4px 0" wrap>
           <Tag color="blue">C#</Tag>
           <Tag color="blue">.NET Technologies</Tag>
-          <Tag color="blue">TCP/IP</Tag>
-          <Tag color="blue">Steamworks</Tag>
-          <Tag color="blue">Jenkins</Tag>
-          <Tag color="blue">Azure Cosmos DB</Tag>
-          <Tag color="blue">Azure PlayFab</Tag>
-          <Tag color="blue">Twitch Integration</Tag>
+          <Tag color="blue">Microsoft GDK</Tag>
+          <Tag color="blue">Playstation Partners</Tag>
+          <Tag color="blue">Steam</Tag>
+          <Tag color="blue">Unity</Tag>
+          <Tag color="blue">XNA</Tag>
+          <Tag color="blue">MonoGame</Tag>
         </Flex>
       </div>
     </div>

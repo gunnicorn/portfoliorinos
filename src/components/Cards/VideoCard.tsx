@@ -1,51 +1,29 @@
 import React from "react";
-import YouTube, { YouTubeProps } from "react-youtube";
-import { Card, Spin } from "antd";
-import styles from "./VideoCard.module.css";
-interface VideoPlayerProps {
+
+interface YouTubeEmbedProps {
   videoId: string;
   width?: number;
   height?: number;
-  autoplay?: boolean;
 }
 
-const VideoPlayer: React.FC<VideoPlayerProps> = ({
+const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({
   videoId,
-  width = 640,
-  height = 390,
-  autoplay = false,
+  width = 400,
+  height = 225,
 }) => {
-  const [loading, setLoading] = React.useState(true);
-
-  const opts: YouTubeProps["opts"] = {
-    height: height.toString(),
-    width: width.toString(),
-    playerVars: {
-      autoplay: autoplay ? 1 : 0,
-      rel: 0,
-      modestbranding: 1,
-    },
-  };
-
-  const onReady = () => {
-    setLoading(false);
-  };
-
   return (
-    <Card bodyStyle={{ padding: 0, borderRadius: "0px" }}>
-      {loading && <Spin size="large" />}
-      <div className={styles.videoContainer}>
-        <YouTube
-          videoId={videoId}
-          opts={opts}
-          onReady={onReady}
-          iframeClassName={styles["youtube-iframe-no-border"]}
-        />
-      </div>
-    </Card>
+    <div className="youtube-embed">
+      <iframe
+        width={width}
+        height={height}
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title="YouTube video player"
+        style={{ border: "none" }}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
   );
 };
 
-// Usage
-
-export default VideoPlayer;
+export default YouTubeEmbed;

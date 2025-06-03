@@ -33,12 +33,14 @@ const DungeonExperience: React.FC = () => (
         <Flex gap="4px 0" wrap>
           <Tag color="blue">C#</Tag>
           <Tag color="blue">.NET Technologies</Tag>
-          <Tag color="blue">TCP/IP</Tag>
+          <Tag color="blue">Microsoft GDK</Tag>
           <Tag color="blue">Steamworks</Tag>
           <Tag color="blue">Jenkins</Tag>
           <Tag color="blue">Azure Cosmos DB</Tag>
           <Tag color="blue">Azure PlayFab</Tag>
-          <Tag color="blue">Twitch Integration</Tag>
+          <Tag color="blue">Twitch</Tag>
+          <Tag color="blue">XNA</Tag>
+          <Tag color="blue">MonoGame</Tag>
         </Flex>
       </div>
     </div>

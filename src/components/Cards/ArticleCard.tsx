@@ -1,12 +1,12 @@
 import React from "react";
-import LeftArticleCard from "./LeftArticleCard";
-import RightArticleCard from "./RightArticleCard";
+import DroneExperience from "./DroneExperience";
+import AMPExperience from "./AMPExperience";
 import styles from "./ArticleCard.module.css";
 const ArticleCard: React.FC = () => (
   <div>
     <div className={styles.mainTitle}>Academic Projects</div>
-    <LeftArticleCard />
-    <RightArticleCard />
+    <DroneExperience />
+    <AMPExperience />
   </div>
 );
 
