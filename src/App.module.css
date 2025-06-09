@@ -1,7 +1,8 @@
 .mainContainer {
   font-family: "Inter, sans-serif";
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   /* background-color: #b4dfff52; */
+  background-color: #e6f4ff;
   display: flex;
   flex-direction: column;
   justify-content: center;

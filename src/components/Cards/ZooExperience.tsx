@@ -20,7 +20,7 @@ const ZooExperience: React.FC = () => (
       Ported the Steam version of the game to Playstation 4/5, Xbox
       Scarlett/Series X|S and Xbox Gamepass PC using Unity and the relevant
       GDKs. I implemented the Save/Load feature and the Downloadable Content
-      pipeline for the consoles as well.
+      pipeline for these consoles as well.
       <p></p>I was also active in engaging with the community through Steam
       forums, helping players with technical issues and questions. You can find
       the game{" "}

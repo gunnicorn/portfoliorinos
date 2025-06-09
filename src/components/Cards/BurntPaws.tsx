@@ -5,24 +5,23 @@ import styles from "./AcademicCard.module.css";
 import VideoPlayer from "./VideoCard";
 import { Flex, Tag } from "antd";
 
-const AMPExperience: React.FC = () => (
+const BurntPaws: React.FC = () => (
   <div>
     <div className={styles.rightAlignedCardMain}>
       <div className={styles.rightAlignedCardText}>
-        2D local PvP shooter where you play as a bodyguard.
-        <p></p>I was in charge of anything physics-related! I made my own custom
-        2D physics library that handled game object collisions.
+        A cooking game where you hunt for ingredients and cook dishes as a cat.
+        <p></p>I did the ingredients and dish system. Since this was a game
+        design class, I focused on flavour texts and item descriptions as well.
       </div>
       <div className={styles.rightAlignedCardPhoto}>
-        <div className={styles.titleText}>Access Modifier: Protected</div>
+        <div className={styles.titleText}>Burnt Paws</div>
         <div>
-          <VideoPlayer videoId="aWm82zK7Qzo" />
+          <VideoPlayer videoId="AgVRCVRH7Cc" />
         </div>
         <div className={styles.experienceTags}>
           <div className={styles.tagsMain}>
             <Flex gap="4px 0" wrap>
-              <Tag color="blue">C++</Tag>
-              <Tag color="blue">Custom Game Engine</Tag>
+              <Tag color="blue">Unity2D</Tag>
             </Flex>
           </div>
         </div>
@@ -31,4 +30,4 @@ const AMPExperience: React.FC = () => (
   </div>
 );
 
-export default AMPExperience;
+export default BurntPaws;

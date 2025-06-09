@@ -3,10 +3,12 @@
     border-color: black;
     border-style: dashed; */
   width: 750px;
-  height: 200px;
+  height: 220px;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 50px 50px 0px 50px;
 }
 
 .handmadeMain1 {
@@ -47,6 +49,7 @@
 .handmadeDesc2 {
   font-size: 28px;
   font-family: "Times New Roman", Times, serif;
+  padding-left: 12px;
 }
 
 .handmadeContact {

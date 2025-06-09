@@ -1,7 +1,7 @@
 // images and then the words
 
 import React from "react";
-import styles from "./ArticleCard.module.css";
+import styles from "./AcademicCard.module.css";
 import VideoPlayer from "./VideoCard";
 import { Flex, Tag } from "antd";
 
@@ -16,6 +16,7 @@ const DroneExperience: React.FC = () => (
             <Flex gap="4px 0" wrap>
               <Tag color="blue">C++</Tag>
               <Tag color="blue">Custom Game Engine</Tag>
+              <Tag color="blue">3D</Tag>
             </Flex>
           </div>
         </div>

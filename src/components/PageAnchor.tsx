@@ -3,7 +3,7 @@ import { Anchor } from "antd";
 
 const PageAnchor: React.FC = () => (
   <>
-    <div style={{ padding: "1px" }}>
+    <div>
       <Anchor
         direction="horizontal"
         items={[

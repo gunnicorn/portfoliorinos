@@ -1,7 +1,8 @@
 import {
   LinkedinOutlined,
-  GithubOutlined,
+  // GithubOutlined,
   MailOutlined,
+  ReadFilled,
 } from "@ant-design/icons";
 import React from "react";
 import styles from "./HandmadeCard.module.css";
@@ -12,18 +13,36 @@ const HandmadeCard: React.FC = () => (
     <div className={styles.handmadeMain1}>
       <div className={styles.handmadeTitle}>Anggun Qistina</div>
       <div className={styles.handmadeDesc}>
-        GAME DEVELOPER | SOFTWARE ENGINEER
+        SOFTWARE ENGINEER | GAME DEVELOPER
       </div>
       <div className={styles.handmadeLokasi}>
         <FaMapMarkerAlt className={styles.handmadePin} />
         <div className={styles.handmadeDesc2}>Singapore</div>
       </div>
+      <div className={styles.handmadeLokasi}>
+        {" "}
+        <ReadFilled style={{ fontSize: 28 }} />
+        <div className={styles.handmadeDesc2}>
+          BSc in Computer Science and Game Design
+        </div>
+      </div>
     </div>
     <div className={styles.handmadeMain2}>
       <div className={styles.handmadeContact}>
-        <LinkedinOutlined style={{ fontSize: 35 }} />
-        <GithubOutlined style={{ fontSize: 35 }} />
-        <MailOutlined style={{ fontSize: 35 }} />
+        <a
+          href="https://www.linkedin.com/in/anggun-qistina-nadimoh-42b139206/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedinOutlined style={{ fontSize: 35 }} />
+        </a>
+        <a
+          href="mailto:your-email@example.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MailOutlined style={{ fontSize: 35 }} />
+        </a>
       </div>
     </div>
   </div>
