@@ -1,18 +1,20 @@
 // picture and words and tags
 
 import React from "react";
-import { Image, Flex, Tag } from "antd";
+import { Flex, Tag } from "antd";
 import styles from "./ExperienceCard.module.css";
+import VideoPlayer from "./VideoCard";
 
 const ZooExperience: React.FC = () => (
   <div className={styles.experienceMain}>
     <div className={styles.experienceTitle}>Let's Build a Zoo</div>
-    <Image
+    {/* <Image
       className={styles.experiencePhoto}
       width={750}
       preview={false}
       src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.epicgames.com%2FsalesEvent%2FsalesEvent%2FEGS_LetsBuildAZoo_Springloaded_S1_2560x1440-0fd216bea3b2356b701c483e6635b96b&f=1&nofb=1&ipt=dbec1dab37f604c96fe4b4cb10c510408dc3f6a745f74844ed8a093a8ad6c123"
-    />
+    /> */}
+    <VideoPlayer videoId="fpAWOLzu6Do" width={750} height={422} />
     {/* <div className={styles.experienceProjDesc}>Game Developer Simulator</div> */}
     <div className={styles.experienceContriCard}>
       Ported the Steam version of the game to Playstation 4/5, Xbox

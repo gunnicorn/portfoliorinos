@@ -1,18 +1,20 @@
 // picture and words and tags
 
 import React from "react";
-import { Image, Flex, Tag } from "antd";
+import { Flex, Tag } from "antd";
 import styles from "./ExperienceCard.module.css";
+import VideoPlayer from "./VideoCard";
 
 const DungeonExperience: React.FC = () => (
   <div className={styles.experienceMain}>
     <div className={styles.experienceTitle}>Let's Build a Dungeon</div>
-    <Image
+    {/* <Image
       className={styles.experiencePhoto}
       width={750}
       preview={false}
       src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2365790/capsule_616x353.jpg?t=1740116300"
-    />
+    /> */}
+    <VideoPlayer videoId="JZ7EkjjIb_k" width={750} height={422} />
     {/* <div className={styles.experienceProjDesc}>Game Developer Simulator</div> */}
     <div className={styles.experienceContriCard}>
       My work consists of architecting and developing the online multiplayer
