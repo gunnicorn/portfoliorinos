@@ -2,8 +2,8 @@
   /* border-width: 2px;
     border-color: black;
     border-style: dashed; */
-  width: 750px;
-  height: 220px;
+  width: 900px;
+  height: 200px;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -31,7 +31,7 @@
   margin: 0px 0px;
   margin-top: 10px;
   padding: 0px;
-  font-size: 72px;
+  font-size: 52px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -42,12 +42,12 @@
   text-align: left;
   margin: 0px 0px;
   padding-top: 8px;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .handmadeDesc2 {
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Times New Roman", Times, serif;
   padding-left: 12px;
 }

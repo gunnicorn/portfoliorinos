@@ -8,26 +8,31 @@ const PageAnchor: React.FC = () => (
         direction="horizontal"
         items={[
           {
-            key: "part-1",
-            href: "#part-1",
-            title: "Part 1",
+            key: "home",
+            href: "#home",
+            title: "home",
           },
           {
-            key: "part-2",
-            href: "#part-2",
-            title: "Part 2",
+            key: "about",
+            href: "#about",
+            title: "about",
           },
           {
-            key: "part-3",
-            href: "#part-3",
-            title: "Part 3",
+            key: "experience",
+            href: "#experience",
+            title: "experience",
+          },
+          {
+            key: "projects",
+            href: "#projects",
+            title: "projects",
           },
         ]}
       />
     </div>
     <div>
       <div
-        id="part-1"
+        id="home"
         style={{
           width: "100vw",
           textAlign: "left",
@@ -35,7 +40,15 @@ const PageAnchor: React.FC = () => (
         }}
       />
       <div
-        id="part-2"
+        id="about"
+        style={{
+          width: "100vw",
+          textAlign: "left",
+          background: "rgba(0,255,0,0.02)",
+        }}
+      />
+      <div
+        id="experience"
         style={{
           width: "100vw",
           textAlign: "left",
@@ -43,7 +56,7 @@ const PageAnchor: React.FC = () => (
         }}
       />
       <div
-        id="part-3"
+        id="projects"
         style={{
           width: "100vw",
           textAlign: "left",

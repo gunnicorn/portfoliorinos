@@ -32,14 +32,14 @@ const ZooExperience: React.FC = () => (
     <div className={styles.experienceTags}>
       <div className={styles.tagsMain}>
         <Flex gap="4px 0" wrap>
-          <Tag color="blue">C#</Tag>
-          <Tag color="blue">.NET Technologies</Tag>
-          <Tag color="blue">Microsoft GDK</Tag>
-          <Tag color="blue">Playstation Partners</Tag>
-          <Tag color="blue">Steam</Tag>
-          <Tag color="blue">Unity</Tag>
-          <Tag color="blue">XNA</Tag>
-          <Tag color="blue">MonoGame</Tag>
+          <Tag color="red">C#</Tag>
+          <Tag color="red">.NET Technologies</Tag>
+          <Tag color="red">XNA</Tag>
+          <Tag color="red">MonoGame</Tag>
+          <Tag color="red">Unity</Tag>
+          <Tag color="purple">Microsoft GDK</Tag>
+          <Tag color="purple">Playstation Partners</Tag>
+          <Tag color="purple">Steamworks</Tag>
         </Flex>
       </div>
     </div>

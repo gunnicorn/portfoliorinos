@@ -21,8 +21,10 @@ const DungeonExperience: React.FC = () => (
       system, integrating external SDKs, implementing gameplay features and
       improving company workflow.
       <p></p>As a core engineer for our custom game engine, I was also in charge
-      of deploying builds, setting up a CI/CD pipeline, integrating Twitch APIs,
-      implementing real-time online multiplayer system and onboarding new hires.
+      of deploying builds on Steam, setting up a CI/CD pipeline, integrating
+      Twitch APIs, setting up the repository, and onboarding new hires. I act as
+      a "go-to" for my fellow co-workers whenever there is a technical issue as
+      well.
       <p></p>
       The game is unreleased but you can play the live demo{" "}
       <a href="https://store.steampowered.com/app/2365790/Lets_Build_a_Dungeon/">
@@ -33,16 +35,16 @@ const DungeonExperience: React.FC = () => (
     <div className={styles.experienceTags}>
       <div className={styles.tagsMain}>
         <Flex gap="4px 0" wrap>
-          <Tag color="blue">C#</Tag>
-          <Tag color="blue">.NET Technologies</Tag>
-          <Tag color="blue">Microsoft GDK</Tag>
-          <Tag color="blue">Steamworks</Tag>
-          <Tag color="blue">Jenkins</Tag>
+          <Tag color="red">C#</Tag>
+          <Tag color="red">.NET Technologies</Tag>
+          <Tag color="red">XNA</Tag>
+          <Tag color="red">MonoGame</Tag>
+          <Tag color="purple">Steamworks</Tag>
+          <Tag color="purple">Twitch</Tag>
+          <Tag color="purple">Jenkins</Tag>
+          <Tag color="blue">Amazon EC2</Tag>
           <Tag color="blue">Azure Cosmos DB</Tag>
           <Tag color="blue">Azure PlayFab</Tag>
-          <Tag color="blue">Twitch</Tag>
-          <Tag color="blue">XNA</Tag>
-          <Tag color="blue">MonoGame</Tag>
         </Flex>
       </div>
     </div>

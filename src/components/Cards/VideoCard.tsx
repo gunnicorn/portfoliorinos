@@ -8,8 +8,8 @@ interface YouTubeEmbedProps {
 
 const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({
   videoId,
-  width = 400,
-  height = 225,
+  width = 533,
+  height = 300,
 }) => {
   return (
     <div className="youtube-embed">

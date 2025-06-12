@@ -1,7 +1,7 @@
 /* ContentCards.module.css */
 
 .container {
-  width: 750px;
+  width: 900px;
   background-color: #f8f8f8;
   padding: 0px 50px;
   
@@ -9,7 +9,7 @@
 
 /* In your CSS file or styled-components */
 :global(.ant-anchor-link-title) {
-  font-size: 24px !important;
+  font-size: 20px !important;
   font-weight: 500;
   font-family: "Times New Roman", Times, serif !important;
 }
@@ -27,16 +27,15 @@
 
 .anchorStyle {
   background-color: #e6f4ff;
-  font-size: 80px !important;
 }
 .part1contentSection {
   /* border-width: 2px;
   border-color: rgb(34, 250, 124);
   border-style: dashed; */
-  width: 100%;
-  text-align: left;
+  width: 95%;
+  text-align: justify;
   font-family: "times new roman", Times, serif;
-  font-size: 24px;
+  font-size: 20px;
   padding-top: 60px;
 }
 
@@ -45,14 +44,14 @@
   border-color: rgb(37, 74, 194);
   border-style: dashed; */
 
-  width: 100%;
-  text-align: left;
+  width: 95%;
+  text-align: justify;
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .contentContainer {
-  width: 750px;
+  width: 900px;
   /* border-width: 2px;
   border-color: black;
   border-style: dashed; */
