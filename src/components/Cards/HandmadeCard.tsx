@@ -1,7 +1,7 @@
 import {
   LinkedinOutlined,
   // GithubOutlined,
-  MailOutlined,
+  // MailOutlined,
   // ReadFilled,
 } from "@ant-design/icons";
 import React from "react";
